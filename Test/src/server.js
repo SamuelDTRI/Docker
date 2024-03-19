@@ -15,5 +15,5 @@ const corsOptions = {
   optionsSuccessStatus: 204,
 };
 server.use(cors(corsOptions));
-
+console.log("server started");
 module.exports = { server };
